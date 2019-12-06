@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Prompt', sans-serif;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.3em !important;
+  color: black;
+}
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+
+.active{
+  background: yellow;
+ color: #1b1a4d;
+}
+
+#a{
+font-weight: bold;
+}
+#a:hover{
+background-image: url(./a.png);
+background-size: cover;
+color: yellow;
+font-weight: bold;
+}
+#b:hover{
+background-image: url(./b.png);
+background-size: cover;
+color: yellow;
+}
+#c:hover{
+background-image: url(./c.png);
+background-size: cover;
+color: yellow;
+}
+#d:hover{
+background-image: url(./ab.png);
+background-size: cover;
+color: red;
+}
+#e:hover{
+background-image: url(./e.png);
+background-size: cover;
+color: yellow;
+}
+#f:hover{
+background-image: url(./f.png);
+background-size: cover;
+color: yellow;
+}
+.jumbotron{
+  color: yellow;
+  background-image: url(./100.png);
+  background-size: cover;
+  width: 100%;
+  text-align-last: center;
+}
+.lead{
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#tour{
+  background-color: yellow;
+
+}
+
+#tourss{
+  width: 960px;
+  margin: 20px auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#tour1{
+  display: flex;
+  padding-left: 10px 20px;
+  color: black;
+  margin: 5px 0;
+  transition: .5s;
+  list-style: none;
+}
+#tour1 span:nth-child(1){
+  width: 200px;
+}
+
+#tour1 span:nth-child(2){
+  width: 200px;
+}
+
+#tour1 span:nth-child(3){
+  width: 250px;
+}
+#tour1 span:nth-child(4){
+  width: 150px;
+}
+#tour1 span:nth-child(5){
+  width: 160px;
+  text-align: center;
+}
+
+button{
+  background: black;
+  color:cyan;
+  width: 50px;
+  height: 30px;
+  border: 1px solid cyan;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: .6s;
+  overflow: hidden;
+}
+
+button:hover{
+  background: cyan;
+  color:black;
+  cursor: pointer;
+}
